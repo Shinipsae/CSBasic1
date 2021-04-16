@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\CSBasic1\CSBasic1\bin\Debug\CSBasic1.exe.config
+C:\Users\user\source\repos\CSBasic1\CSBasic1\bin\Debug\CSBasic1.exe
+C:\Users\user\source\repos\CSBasic1\CSBasic1\bin\Debug\CSBasic1.pdb
+C:\Users\user\source\repos\CSBasic1\CSBasic1\obj\Debug\CSBasic1.csprojAssemblyReference.cache
+C:\Users\user\source\repos\CSBasic1\CSBasic1\obj\Debug\CSBasic1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CSBasic1\CSBasic1\obj\Debug\CSBasic1.exe
+C:\Users\user\source\repos\CSBasic1\CSBasic1\obj\Debug\CSBasic1.pdb
