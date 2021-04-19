@@ -19,6 +19,22 @@ namespace CSBasic1
             // var 273alpha = "숫자이름";
             var 한글변수명 = "된당";
             // string 이모티콘 = "이모지는 안된다"
+
+            /*여러줄
+             주석*/
+
+            Console.WriteLine(52);
+            Console.WriteLine(52 + 273);
+            Console.WriteLine(10 / 5);
+            Console.WriteLine(10 % 5);
+            Console.WriteLine(7 % 3);
+            Console.WriteLine(52.273);
+            Console.WriteLine(0.0);
+            Console.WriteLine('a');
+            Console.WriteLine('가');
+            Console.WriteLine("a" + "b");
+            Console.WriteLine("미림여자/t정보과학고등학교");
+            Console.WriteLine(DateTime.Now.Hour < 3);
                                                                                            
         }
     }
