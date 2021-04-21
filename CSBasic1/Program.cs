@@ -90,22 +90,67 @@ namespace CSBasic1
             var number5 = 100.0;
             var number6 = 100.0f;
 
+            /* 
             string input = Console.ReadLine();
             Console.WriteLine("input: " + input);
-            while (true)
+                        while (true)
+                        {
+                            input = Console.ReadLine();
+                            if(input != "q")
+                            {
+                                Console.WriteLine(input);
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }*/
+
+            // 강제 형변환
+            long longNumber = 2147483647l + 2147483647l;
+            int intNumber = (int)longNumber;
+            Console.WriteLine(intNumber);
+
+            // 자동 형변환
+            intNumber = 100;
+            longNumber = intNumber;
+            Console.WriteLine(longNumber);
+
+            // int -> long, float, double
+            // long -> float, double
+            // char -> int, long, float, double
+            // float -> double
+
+            //Widening Cast
+
+            // INint
+            string numberString = "52273";
+
+            Console.WriteLine(int.Parse("52.273"));
+            try
             {
-                input = Console.ReadLine();
-                if(input != "q")
-                {
-                    Console.WriteLine(input);
-                }
-                else
-                {
-                    break;
-                }
+                Console.WriteLine("adsf");
+            } catch (FormatException e) {
+                Console.Write("숫자변경불가");
             }
 
+            Console.WriteLine((10).ToString());
+            Console.WriteLine((true).ToString());
 
+            double number2 = 52.27411;
+            Console.WriteLine(number2.ToString("0.000"));//출력형태
+
+            char ch = 'a';
+            // string outputB = ch;
+            // string outputD = 3;
+
+            // string to bool 변환
+            Console.WriteLine(bool.Parse("True"));
+            Console.WriteLine(bool.Parse("False"));
+
+            Console.WriteLine(int.MaxValue);
+            Console.WriteLine(int.MinValue);
+            
         }
     }
 }
